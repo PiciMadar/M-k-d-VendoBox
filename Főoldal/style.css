@@ -71,3 +71,9 @@ p{
     border-radius: 5px;
     font-weight: bold;
 }
+
+button:hover{
+    background-color: rgb(27,115,17);
+    color: white;
+    border: 3px white solid;
+}
