@@ -1,0 +1,73 @@
+body{
+    background-color: rgb(93, 255, 93);
+    margin: 0;
+}
+h1{
+    text-align: center;
+    color:rgb(93, 163, 93);
+    background: linear-gradient(0deg, rgb(188, 202, 190) 0%, rgba(255,255,255,1) 100%);
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-size: 100px;
+    border-top: 5px;
+    border-bottom: 5px;
+    border: solid lime;
+}
+
+#gombok{
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.BalNagyD{
+    display: flex;
+    width: 35%;
+}
+
+.Gombok{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30%;
+    align-items: center;
+}
+.Cimek{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    align-items: end;
+    padding-right: 8%;
+    color: white;
+    letter-spacing: 2px;
+}
+
+button{
+    height: 10%;
+    width: 80%;
+    font-weight: bolder;
+    font-size: 120%;
+    background-color: white;
+    color: rgb(44, 158, 44);
+    border: 2px rgb(44, 158, 44) solid;
+    border-radius: 6px;
+    letter-spacing: 3px;
+}
+
+p{
+    
+    padding: 5%;
+    padding-left: 20%;
+    background: rgb(27,115,17);
+    background: linear-gradient(-90deg, rgba(27,115,17,1) 0%, rgba(93,255,93,0.27494747899159666) 100%);
+    border-radius: 5px;
+    font-weight: bold;
+}
